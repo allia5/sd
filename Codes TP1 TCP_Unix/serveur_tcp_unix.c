@@ -34,7 +34,7 @@
  }
 
  listen (dfs_serveur, 5);
- while (1/*text!="quitter"*/)
+ while (1)
  {
  
 
@@ -44,13 +44,7 @@
  int tabReceived[n];
 
     while((read_size = recv(dfs_client,/*text*/ tabReceived, sizeof /*text*/ tabReceived, 0)) > 0){
-      /*
-      printf("text recives is :",&);
-      printf(saiser text 2 serveur :);
-      text2="";
-      scanf("%d",&text2);
-      send(dfs_client, text2, sizeof tab, 0)
-      */
+     
     }
 
 

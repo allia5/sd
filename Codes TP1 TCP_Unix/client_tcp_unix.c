@@ -38,16 +38,11 @@
     for(int i = 0; i < n; i++){
         printf("%d  ", tab[i]);       
     }
-    /*
-    s="";
-    printf("seiser text or quitter pour exit");
-    scanf("%s",&text);
-    
-    */
+  
 
 
 
-    if(send(dfs_client, /*s*/tab, sizeof tab, 0) < 0)    
+    if(send(dfs_client, tab, sizeof tab, 0) < 0)    
     {
         printf("\nTab non envoyé\n");
     }
@@ -55,7 +50,7 @@
     {
         printf("\ntab envoyé\n");
     }
-   /*  recv(dfs_client,text, sizeof text tabReceived, 0));*/
+  
 
     printf("\n");
     
